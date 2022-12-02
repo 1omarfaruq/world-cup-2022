@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@800&family=Open+Sans&family=Poppins&display=swap");
+
+/* Base styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+.container {
+    width: 1321px;
+    overflow: hidden;
+}
+
+/* Start Hero section styles */
+.hero-section {
+    display: flex;
+    margin: 50px auto 0;
+    padding: 50px 100px 0 100px;
+    border-radius: 15px;
+    background-color: #161616;
+    color: #ffffff;
+}
+.hero-info {
+    width: 50%;
+}
+.hero-info h1 {
+    font-size: 5em;
+    font-family: "Nanum Gothic", sans-serif;
+    margin-bottom: 30px;
+}
+.hero-info p {
+    width: 92%;
+}
+.hero-info button {
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    background-color: #dd0000;
+    color: #ffffff;
+    font-size: 20px;
+}
+.hero-info > button:hover,
+button:active {
+    transform: translateY(-3px);
+    color: #fff;
+    box-shadow: 0 8px 20px 0 rgba(241, 133, 133, 0.3);
+    transition: box-shadow 2s;
+    transition: transform 1s;
+}
+
+.hero-image {
+    width: 50%;
+    position: relative;
+}
+.hero-image img {
+    position: absolute;
+    left: 50px;
+    bottom: 0;
+    width: 600px;
+}
+/* End Hero section styles */
